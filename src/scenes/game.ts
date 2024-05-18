@@ -1,22 +1,25 @@
-import { addCursorKeys } from '../events'
-import { addEnemy, addPlayer } from '../gameobjects'
+import { Scene, Tag } from '../constants'
+import { checkSolution, rotatePipe } from '../helpers'
+import { getLevel, hasLevel } from '../levels'
 
-scene('game', () => {
-  const player = addPlayer()
+scene(Scene.game, (levelNumber: number) => {
+  if (!hasLevel(levelNumber)) {
+    levelNumber = 0
+  }
 
-  player.onUpdate(() => {
-    player.angle += 120 * dt()
+  const level = addLevel(...getLevel(levelNumber))
+
+  level.get(Tag.pipe).forEach((pipe) => {
+    Array(randi(4))
+      .fill(undefined)
+      .forEach(() => rotatePipe(pipe))
   })
 
-  addCursorKeys(player)
+  onClick(Tag.pipe, (pipe) => {
+    rotatePipe(pipe)
 
-  onClick(() => addKaboom(mousePos()))
-
-  add([text('Press arrow keys', { width: width() / 2 }), pos(12, 12)])
-
-  for (let i = 0; i < 3; i++) {
-    const x = rand(0, width())
-    const y = rand(0, height())
-    addEnemy(x, y)
-  }
+    if (checkSolution(level)) {
+      go(Scene.game, levelNumber + 1)
+    }
+  })
 })
