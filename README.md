@@ -4,6 +4,10 @@
 
 The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was `AQUA`.
 
+## Credits
+
+- [Kenney Puzzle Pack 2](https://kenney.nl/assets/puzzle-pack-2)
+
 ## Stack
 
 - [Kaboom](https://kaboomjs.com/)
