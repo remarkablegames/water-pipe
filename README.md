@@ -1,6 +1,6 @@
-# kaboom-template
+# water-pipe
 
-<kbd>kaboom-template</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games. See [example](https://remarkablegames.org/kaboom-template).
+<kbd>water-pipe</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games. See [example](https://remarkablegames.org/water-pipe).
 
 ## Stack
 
@@ -17,8 +17,8 @@
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablegames/kaboom-template.git
-cd kaboom-template
+git clone https://github.com/remarkablegames/water-pipe.git
+cd water-pipe
 ```
 
 Use the Node.js version:
