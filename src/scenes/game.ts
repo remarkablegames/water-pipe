@@ -7,6 +7,12 @@ scene(Scene.game, (levelNumber: number) => {
     levelNumber = 0
   }
 
+  add([
+    text(String(levelNumber), { align: 'center', size: 42 }),
+    pos(center().x, 24),
+    color(15, 16, 53),
+  ])
+
   setBackground(...getLevelBackground(levelNumber))
   const level = addLevel(...getLevel(levelNumber))
 

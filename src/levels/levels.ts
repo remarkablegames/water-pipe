@@ -1,6 +1,6 @@
 // △ ▷ ▽ ◁
-// ━ ┃ ┏ ┓ ┗ ┛ ┣ ┫ ┳ ┻ ╋
 // ═ ║ ╔ ╗ ╚ ╝ ╠ ╣ ╦ ╩ ╬
+// ━ ┃ ┏ ┓ ┗ ┛ ┣ ┫ ┳ ┻ ╋
 // https://colorhunt.co/palettes/sea
 
 interface Level {
@@ -38,6 +38,31 @@ export const levels: Level[] = [
   {
     // prettier-ignore
     map: [
+      '▷═╦═◁',
+      '╔═╬═╗',
+      '╚═╩═╝',
+    ],
+    scale: 1,
+    background: [172, 226, 225],
+  },
+
+  // 3
+  {
+    // prettier-ignore
+    map: [
+      '▽╔═╦═╗ ',
+      '╠╣╔╬╗╚╗',
+      '╚╣╠╩╬═╣',
+      ' ╚╩═╝ △',
+    ],
+    scale: 0.8,
+    background: [224, 251, 226],
+  },
+
+  // 4
+  {
+    // prettier-ignore
+    map: [
       ' ╔══╦══╗ ',
       ' ║╔═╬═╗║ ',
       '▷╣╠═╬═╣╠◁',
@@ -45,6 +70,6 @@ export const levels: Level[] = [
       ' ╚══╩══╝ ',
     ],
     scale: 0.8,
-    background: [224, 251, 226],
+    background: [220, 242, 241],
   },
 ]
