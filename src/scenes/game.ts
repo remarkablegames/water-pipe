@@ -1,12 +1,13 @@
 import { EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
 import { checkSolution, rotatePipe } from '../helpers'
-import { getLevel, hasLevel } from '../levels'
+import { getLevel, getLevelBackground, hasLevel } from '../levels'
 
 scene(Scene.game, (levelNumber: number) => {
   if (!hasLevel(levelNumber)) {
     levelNumber = 0
   }
 
+  setBackground(...getLevelBackground(levelNumber))
   const level = addLevel(...getLevel(levelNumber))
 
   level.get(Tag.pipe).forEach((pipe) => {
