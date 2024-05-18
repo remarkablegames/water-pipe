@@ -1,4 +1,11 @@
+<p align="center">
+  <img src="https://github.com/remarkablegames/water-pipe/blob/master/public/logo.png" alt="Water Pipe">
+</p>
+
 # Water Pipe
+
+![release](https://img.shields.io/github/v/release/remarkablegames/water-pipe)
+[![build](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml)
 
 🚰 Water Pipe is a casual puzzle game.
 
