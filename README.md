@@ -18,6 +18,7 @@ Play the game on:
 ## Credits
 
 - [Kenney Puzzle Pack 2](https://kenney.nl/assets/puzzle-pack-2)
+- [SPLASH by Pixabay](https://pixabay.com/sound-effects/splash-by-blaukreuz-6261/)
 
 ## Stack
 
