@@ -10,9 +10,10 @@ import { getTiles } from './tiles'
  */
 export function getLevel(level: number) {
   const { map, scale } = levels[level]
+  const tileScale = (scale * window.innerWidth) / 1920
 
-  const tileWidth = TILE_SIZE * scale
-  const tileHeight = TILE_SIZE * scale
+  const tileWidth = TILE_SIZE * tileScale
+  const tileHeight = TILE_SIZE * tileScale
 
   const width = tileWidth * map[0].length
   const height = tileHeight * map.length
@@ -20,7 +21,7 @@ export function getLevel(level: number) {
   const options = {
     tileWidth,
     tileHeight,
-    tiles: getTiles(scale),
+    tiles: getTiles(tileScale),
 
     pos: vec2(
       center().x + tileWidth / 2 - width / 2,
