@@ -2,7 +2,7 @@
 
 🚰 Water Pipe is a casual puzzle game.
 
-The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was `AQUA`.
+The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was `AQUA`. See [Replit](https://replit.com/@remarkablemark/Water-Pipe) prototype.
 
 ## Credits
 
