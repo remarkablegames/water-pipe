@@ -1,4 +1,4 @@
-import { EmptyToFilledPipe, Scene, Tag } from '../constants'
+import { EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
 import { checkSolution, rotatePipe } from '../helpers'
 import { getLevel, hasLevel } from '../levels'
 
@@ -17,10 +17,13 @@ scene(Scene.game, (levelNumber: number) => {
 
   onClick(Tag.pipe, (pipe) => {
     if (!checkSolution(level)) {
+      play(Sound.click)
       rotatePipe(pipe)
     }
 
     if (checkSolution(level)) {
+      play(Sound.splash)
+
       level.get(Tag.pipe).forEach((pipe) => {
         pipe.use(
           sprite(
