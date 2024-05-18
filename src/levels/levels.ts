@@ -50,6 +50,29 @@ export const levels: Level[] = [
   {
     // prettier-ignore
     map: [
+      '▽╔╦═╗▽',
+      '║╠╬╦╩╣',
+      '╚╝╚╩═╝',
+    ],
+    scale: 1,
+  },
+
+  // 4
+  {
+    // prettier-ignore
+    map: [
+      '╔╦═╦╗▽',
+      '╠╬╦╣╠╣',
+      '╚╩╬╬╬╣',
+      '▷═╩╩╩╝',
+    ],
+    scale: 1,
+  },
+
+  // 5
+  {
+    // prettier-ignore
+    map: [
       '▽╔═╦═╗ ',
       '╠╣╔╬╗╚╗',
       '╚╣╠╩╬═╣',
@@ -58,7 +81,7 @@ export const levels: Level[] = [
     scale: 0.8,
   },
 
-  // 4
+  // 6
   {
     // prettier-ignore
     map: [
