@@ -11,5 +11,5 @@ scene(Scene.preload, async () => {
 
   await Promise.all(sprites.concat(sounds))
 
-  go(Scene.game, new URLSearchParams(location.search).get('level') || 0)
+  go(Scene.game, Number(new URLSearchParams(location.search).get('level')))
 })
