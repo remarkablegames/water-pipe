@@ -26,6 +26,20 @@ export enum FilledPipe {
   '╋' = '╋',
 }
 
+export enum EmptyToFilledPipe {
+  '═' = '━',
+  '║' = '┃',
+  '╔' = '┏',
+  '╗' = '┓',
+  '╚' = '┗',
+  '╝' = '┛',
+  '╠' = '┣',
+  '╣' = '┫',
+  '╦' = '┳',
+  '╩' = '┻',
+  '╬' = '╋',
+}
+
 export enum DirectionPipe {
   '△' = '△',
   '▷' = '▷',
