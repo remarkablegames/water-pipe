@@ -1,6 +1,6 @@
 import { EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
-import { checkSolution, rotatePipe } from '../helpers'
-import { getLevel, getLevelBackground, hasLevel } from '../levels'
+import { checkSolution, rotatePipe, setRandomBackgroundColor } from '../helpers'
+import { getLevel, hasLevel } from '../levels'
 
 scene(Scene.game, (levelNumber: number) => {
   if (!hasLevel(levelNumber)) {
@@ -13,7 +13,7 @@ scene(Scene.game, (levelNumber: number) => {
     color(15, 16, 53),
   ])
 
-  setBackground(...getLevelBackground(levelNumber))
+  setRandomBackgroundColor()
   const level = addLevel(...getLevel(levelNumber))
 
   level.get(Tag.pipe).forEach((pipe) => {

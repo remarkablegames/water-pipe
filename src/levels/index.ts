@@ -41,13 +41,3 @@ export function getLevel(level: number) {
 export function hasLevel(level: number): boolean {
   return Boolean(levels[level])
 }
-
-/**
- * Gets level background color.
- *
- * @param level - Level number.
- * @returns - RGB color.
- */
-export function getLevelBackground(level: number) {
-  return levels[level].background
-}

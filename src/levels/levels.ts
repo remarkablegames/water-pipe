@@ -1,14 +1,17 @@
-// △ ▷ ▽ ◁
-// ═ ║ ╔ ╗ ╚ ╝ ╠ ╣ ╦ ╩ ╬
-// ━ ┃ ┏ ┓ ┗ ┛ ┣ ┫ ┳ ┻ ╋
-// https://colorhunt.co/palettes/sea
-
 interface Level {
   map: string[]
   scale: number
-  background: [number, number, number]
 }
 
+/**
+ * @see https://wikipedia.org/wiki/Box-drawing_characters
+ *
+ * ```
+ * △ ▷ ▽ ◁
+ * ═ ║ ╔ ╗ ╚ ╝ ╠ ╣ ╦ ╩ ╬
+ * ━ ┃ ┏ ┓ ┗ ┛ ┣ ┫ ┳ ┻ ╋
+ * ```
+ */
 export const levels: Level[] = [
   // 0
   {
@@ -19,7 +22,6 @@ export const levels: Level[] = [
       '  ╚═◁',
     ],
     scale: 1,
-    background: [238, 247, 255],
   },
 
   // 1
@@ -31,7 +33,6 @@ export const levels: Level[] = [
       '▷═╩═╝',
     ],
     scale: 1,
-    background: [205, 232, 229],
   },
 
   // 2
@@ -43,7 +44,6 @@ export const levels: Level[] = [
       '╚═╩═╝',
     ],
     scale: 1,
-    background: [172, 226, 225],
   },
 
   // 3
@@ -56,7 +56,6 @@ export const levels: Level[] = [
       ' ╚╩═╝ △',
     ],
     scale: 0.8,
-    background: [224, 251, 226],
   },
 
   // 4
@@ -70,6 +69,5 @@ export const levels: Level[] = [
       ' ╚══╩══╝ ',
     ],
     scale: 0.8,
-    background: [220, 242, 241],
   },
 ]
