@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2](https://github.com/remarkablegames/water-pipe/compare/v1.0.1...v1.0.2) (2024-05-19)
+
+
+### Bug Fixes
+
+* **scenes:** stop background music from playing at end of level ([5dc0465](https://github.com/remarkablegames/water-pipe/commit/5dc0465da61e1a7ddd57170eb9ff5e22c1c8ecad))
+
+
+### Performance Improvements
+
+* **public:** compress sprites, sounds, and other images ([2a75342](https://github.com/remarkablegames/water-pipe/commit/2a75342e034fbd04229766336a1e308d860b03b0))
+
 ## [1.0.1](https://github.com/remarkablegames/water-pipe/compare/v1.0.0...v1.0.1) (2024-05-19)
 
 
