@@ -14,6 +14,7 @@ The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-
 Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/water-pipe/)
+- [itch.io](https://remarkablegames.itch.io/water-pipe)
 
 ## Credits
 
