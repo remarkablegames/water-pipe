@@ -12,6 +12,8 @@ scene(Scene.game, (levelNumber: number) => {
     levelNumber = 0
   }
 
+  play(Sound.waves, { loop: true, volume: 0.4 })
+
   add([
     text(String(levelNumber), {
       align: 'center',
@@ -37,7 +39,7 @@ scene(Scene.game, (levelNumber: number) => {
     }
 
     if (checkSolution(level)) {
-      play(Sound.splash)
+      play(Sound.splash, { volume: 0.5 })
 
       level.get(Tag.pipe).forEach((pipe) => {
         pipe.use(

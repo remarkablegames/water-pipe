@@ -17,9 +17,10 @@ Play the game on:
 
 ## Credits
 
-- [Kenney Puzzle Pack 2](https://kenney.nl/assets/puzzle-pack-2)
-- [Kenney UI Audio](https://kenney.nl/assets/ui-audio)
-- [SPLASH by Pixabay](https://pixabay.com/sound-effects/splash-by-blaukreuz-6261/)
+- [Kenney - Puzzle Pack 2](https://kenney.nl/assets/puzzle-pack-2)
+- [Kenney - UI Audio](https://kenney.nl/assets/ui-audio)
+- [Pixabay - SPLASH](https://pixabay.com/sound-effects/splash-by-blaukreuz-6261/)
+- [Pixabay - Gentle ocean waves birdsong and gull](https://pixabay.com/sound-effects/gentle-ocean-waves-birdsong-and-gull-7109/)
 
 ## Stack
 
