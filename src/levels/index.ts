@@ -1,4 +1,5 @@
 import { TILE_SIZE } from '../constants'
+import { getDeviceScale } from '../helpers'
 import { levels } from './levels'
 import { getTiles } from './tiles'
 
@@ -10,7 +11,7 @@ import { getTiles } from './tiles'
  */
 export function getLevel(level: number) {
   const { map, scale } = levels[level]
-  const tileScale = (scale * window.innerWidth) / 1920
+  const tileScale = scale * getDeviceScale()
 
   const tileWidth = TILE_SIZE * tileScale
   const tileHeight = TILE_SIZE * tileScale

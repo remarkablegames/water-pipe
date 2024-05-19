@@ -91,6 +91,6 @@ export const levels: Level[] = [
       ' ║╚═╬═╝║ ',
       ' ╚══╩══╝ ',
     ],
-    scale: 0.8,
+    scale: 0.65,
   },
 ]

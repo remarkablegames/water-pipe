@@ -1,5 +1,10 @@
 import { EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
-import { checkSolution, rotatePipe, setRandomBackgroundColor } from '../helpers'
+import {
+  checkSolution,
+  getDeviceScale,
+  rotatePipe,
+  setRandomBackgroundColor,
+} from '../helpers'
 import { getLevel, hasLevel } from '../levels'
 
 scene(Scene.game, (levelNumber: number) => {
@@ -8,7 +13,10 @@ scene(Scene.game, (levelNumber: number) => {
   }
 
   add([
-    text(String(levelNumber), { align: 'center', size: 42 }),
+    text(String(levelNumber), {
+      align: 'center',
+      size: Math.max(64 * getDeviceScale(), 42),
+    }),
     pos(center().x, 24),
     color(15, 16, 53),
   ])
