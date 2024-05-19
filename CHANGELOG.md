@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/remarkablegames/water-pipe/compare/v1.0.0...v1.0.1) (2024-05-19)
+
+
+### Bug Fixes
+
+* **style:** add CSS reset to remove border, margin, padding ([9e743bc](https://github.com/remarkablegames/water-pipe/commit/9e743bc569f4afc7147676fae65fb2a7147095da))
+
 ## 1.0.0 (2024-05-19)
 
 
