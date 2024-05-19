@@ -1,7 +1,7 @@
 {
   "name": "water-pipe",
   "version": "1.1.0",
-  "description": "A template for building Kaboom games.",
+  "description": "Water Pipe is a puzzle where you connect all the pipes.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "npm run clean && vite build",
