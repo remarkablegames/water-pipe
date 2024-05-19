@@ -12,7 +12,8 @@ scene(Scene.game, (levelNumber: number) => {
     levelNumber = 0
   }
 
-  play(Sound.waves, { loop: true, volume: 0.4 })
+  const music = play(Sound.waves, { loop: true, volume: 0.7 })
+  music.seek(1)
 
   add([
     text(String(levelNumber), {
@@ -39,6 +40,7 @@ scene(Scene.game, (levelNumber: number) => {
     }
 
     if (checkSolution(level)) {
+      music.stop()
       play(Sound.splash, { volume: 0.5 })
 
       level.get(Tag.pipe).forEach((pipe) => {
