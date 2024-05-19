@@ -1,15 +1,13 @@
-import { pipes, Scene, Sound } from '../constants'
+import { Background, pipes, Scene, Sound } from '../constants'
 
-scene(Scene.preload, async () => {
-  const sprites = pipes.map((pipe) => {
-    loadSprite(pipe, `sprites/pipes/${pipe}.png`)
-  })
+scene(Scene.preload, () => {
+  pipes.map((pipe) => loadSprite(pipe, `sprites/pipes/${pipe}.png`))
 
-  const sounds = Object.values(Sound).map((sound) => {
+  loadSprite(Background.brick, 'sprites/backgrounds/brick.jpg')
+
+  Object.values(Sound).map((sound) => {
     loadSound(sound, `sounds/${sound}.mp3`)
   })
-
-  await Promise.all(sprites.concat(sounds))
 
   go(Scene.game, Number(new URLSearchParams(location.search).get('level')))
 })

@@ -24,5 +24,5 @@ const backgrounds: [number, number, number][] = [
 
 export function setRandomBackgroundColor() {
   const color = backgrounds[randi(backgrounds.length)]
-  setBackground(...color)
+  setBackground(...color, 1)
 }

@@ -1,4 +1,4 @@
-import { EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
+import { Background, EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
 import {
   checkSolution,
   getDeviceScale,
@@ -25,6 +25,13 @@ scene(Scene.game, (levelNumber: number) => {
   ])
 
   setRandomBackgroundColor()
+  add([
+    sprite(Background.brick),
+    pos(width() / 2, height() / 2),
+    anchor('center'),
+    opacity(0.2),
+  ])
+
   const level = addLevel(...getLevel(levelNumber))
 
   level.get(Tag.pipe).forEach((pipe) => {

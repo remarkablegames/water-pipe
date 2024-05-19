@@ -18,7 +18,13 @@ Play the game on:
 
 ## Credits
 
+### Art
+
 - [Kenney - Puzzle Pack 2](https://kenney.nl/assets/puzzle-pack-2)
+- Photo by [Bernard Hermant](https://unsplash.com/@bernardhermant) on [Unsplash](https://unsplash.com/photos/brown-concrete-brick-t4DuoDHjxrQ)
+
+### Sounds
+
 - [Kenney - UI Audio](https://kenney.nl/assets/ui-audio)
 - [Pixabay - SPLASH](https://pixabay.com/sound-effects/splash-by-blaukreuz-6261/)
 - [Pixabay - Gentle ocean waves birdsong and gull](https://pixabay.com/sound-effects/gentle-ocean-waves-birdsong-and-gull-7109/)
