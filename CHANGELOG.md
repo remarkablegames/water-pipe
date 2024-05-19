@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.0](https://github.com/remarkablegames/water-pipe/compare/v1.0.2...v1.1.0) (2024-05-19)
+
+
+### Features
+
+* **public:** add opaque background brick wall image to game ([434bd1b](https://github.com/remarkablegames/water-pipe/commit/434bd1bde939d3f885ddc2f5ac1a227abc6ae250))
+
+
+### Bug Fixes
+
+* **public:** desaturate brick background ([b0201b4](https://github.com/remarkablegames/water-pipe/commit/b0201b47f224b7edfd51138ac4dd78e29c5d9427))
+
+
+### Performance Improvements
+
+* **public:** compress brick background ([a9bc8a0](https://github.com/remarkablegames/water-pipe/commit/a9bc8a01d20a727a542ebea8e1acfdfb17472c9a))
+
 ## [1.0.2](https://github.com/remarkablegames/water-pipe/compare/v1.0.1...v1.0.2) (2024-05-19)
 
 
