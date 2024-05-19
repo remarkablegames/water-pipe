@@ -73,6 +73,18 @@ export const levels: Level[] = [
   {
     // prettier-ignore
     map: [
+      '╔═╦╦═╗',
+      '║╔╩╩╗║',
+      '╠╬╗╔╬╣',
+      '△╚╝╚╝△',
+    ],
+    scale: 0.8,
+  },
+
+  // 6
+  {
+    // prettier-ignore
+    map: [
       '▷═╦╗╔╦╗╔╗',
       '╔╗╚╬╬╩╣╠╝',
       '╚╩═╝╚═╩╩◁',
@@ -80,7 +92,7 @@ export const levels: Level[] = [
     scale: 0.6,
   },
 
-  // 6
+  // 7
   {
     // prettier-ignore
     map: [
@@ -92,7 +104,7 @@ export const levels: Level[] = [
     scale: 0.8,
   },
 
-  // 7
+  // 8
   {
     // prettier-ignore
     map: [
@@ -105,7 +117,7 @@ export const levels: Level[] = [
     scale: 0.65,
   },
 
-  // 8
+  // 9
   {
     // prettier-ignore
     map: [
@@ -116,5 +128,20 @@ export const levels: Level[] = [
       '╚╩╩╩╩╝╚╩╝',
     ],
     scale: 0.6,
+  },
+
+  // 10
+  {
+    // prettier-ignore
+    map: [
+      '╔╦═╗▽╔╦═╗',
+      '╠╬╗╚╝╠╬╗║',
+      '╠╝╚╦╦╝╠╝║',
+      '╠═╦╩╬╦╩╦╣',
+      '╠╗╠═╬╩╗╠╣',
+      '║╚╝╔╬╗║╚╣',
+      '╚══╝△╚╩═╝',
+    ],
+    scale: 0.45,
   },
 ]
