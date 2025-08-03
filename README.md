@@ -7,15 +7,15 @@
 ![release](https://img.shields.io/github/v/release/remarkablegames/water-pipe)
 [![build](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml)
 
-🚰 Water Pipe is a puzzle where you connect all the pipes.
+🚰 Water Pipe is a casual puzzle game where you connect all the pipes.
 
-The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was `AQUA`. See the [Replit](https://replit.com/@remarkablemark/Water-Pipe) demo and read the [blog post](https://remarkablegames.org/posts/water-pipe/).
+The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was **AQUA**. See the [Replit](https://replit.com/@remarkablemark/Water-Pipe) demo and read the [blog post](https://remarkablegames.org/posts/water-pipe/).
 
 Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/water-pipe/)
 - [itch.io](https://remarkablegames.itch.io/water-pipe)
-- [Newgrounds](https://www.newgrounds.com/portal/view/930938)
+- [newgrounds](https://www.newgrounds.com/portal/view/930938)
 
 ## Credits
 
