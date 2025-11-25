@@ -4,7 +4,7 @@
 
 # Water Pipe
 
-![release](https://img.shields.io/github/v/release/remarkablegames/water-pipe)
+[![release](https://img.shields.io/github/v/release/remarkablegames/water-pipe)](https://github.com/remarkablegames/water-pipe/releases)
 [![build](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml)
 
 🚰 Water Pipe is a casual puzzle game where you connect all the pipes.
