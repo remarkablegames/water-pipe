@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablegames/water-pipe/compare/v1.1.1...v1.2.0) (2026-08-07)
+
+
+### Features
+
+* persist reached level in localStorage ([fdc152d](https://github.com/remarkablegames/water-pipe/commit/fdc152d335253bf4b4045b42ea03f276888e9109))
+
 ## [1.1.1](https://github.com/remarkablegames/water-pipe/compare/v1.1.0...v1.1.1) (2025-07-28)
 
 ### Miscellaneous Chores
