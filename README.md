@@ -40,12 +40,6 @@ Read the [blog post](https://remarkablegames.org/posts/water-pipe/).
 - [Pixabay - SPLASH](https://pixabay.com/sound-effects/splash-by-blaukreuz-6261/)
 - [Pixabay - Gentle ocean waves birdsong and gull](https://pixabay.com/sound-effects/gentle-ocean-waves-birdsong-and-gull-7109/)
 
-## Stack
-
-- [Kaplay](https://kaplayjs.com/)
-- [Vite](https://vitejs.dev/)
-- [GitHub Pages](https://pages.github.com/)
-
 ## Prerequisites
 
 - [nvm](https://github.com/nvm-sh/nvm#readme)
