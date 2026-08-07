@@ -84,10 +84,9 @@ jobs:
         run: >
           butler push
           ${{ steps.tauri.outputs.bundle-path }}
-          ${{ github.repository }}:$CHANNEL
+          ${{ github.repository }}:${{ steps.vars.outputs.platform }}
           --userversion ${{ steps.vars.outputs.version }}
         env:
-          CHANNEL: ${{ steps.vars.outputs.platform }}
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
 
       - name: Upload Release Artifact
