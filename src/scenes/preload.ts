@@ -1,4 +1,4 @@
-import { Background, pipes, Scene, Sound } from '../constants'
+import { Background, pipes, Scene, Sound, StorageKey } from '../constants'
 
 scene(Scene.preload, () => {
   pipes.map((pipe) => loadSprite(pipe, `sprites/pipes/${pipe}.png`))
@@ -9,5 +9,9 @@ scene(Scene.preload, () => {
     loadSound(sound, `sounds/${sound}.mp3`)
   })
 
-  go(Scene.game, Number(new URLSearchParams(location.search).get('level')))
+  const queryLevel = new URLSearchParams(location.search).get('level')
+  const savedLevel = getData<number>(StorageKey.level, 0) ?? 0
+  const levelNumber = queryLevel !== null ? Number(queryLevel) : savedLevel
+
+  go(Scene.game, levelNumber)
 })

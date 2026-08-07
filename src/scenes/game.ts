@@ -1,4 +1,11 @@
-import { Background, EmptyToFilledPipe, Scene, Sound, Tag } from '../constants'
+import {
+  Background,
+  EmptyToFilledPipe,
+  Scene,
+  Sound,
+  StorageKey,
+  Tag,
+} from '../constants'
 import {
   checkSolution,
   getDeviceScale,
@@ -11,6 +18,8 @@ scene(Scene.game, (levelNumber: number) => {
   if (!hasLevel(levelNumber)) {
     levelNumber = 0
   }
+
+  setData(StorageKey.level, levelNumber)
 
   const music = play(Sound.waves, { loop: true, volume: 0.7 })
   music.seek(1)
