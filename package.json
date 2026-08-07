@@ -1,6 +1,6 @@
 {
   "name": "water-pipe",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "npm run clean && vite build",

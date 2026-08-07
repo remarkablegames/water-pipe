@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/remarkablegames/water-pipe/compare/v1.2.0...v1.2.1) (2026-08-07)
+
+
+### Continuous Integration
+
+* **github:** harden bundle script and fix wavedash upload in release-please.yml ([1ac10c0](https://github.com/remarkablegames/water-pipe/commit/1ac10c0721b307ffb98fb299703c78fb3cfc12b1))
+
 ## [1.2.0](https://github.com/remarkablegames/water-pipe/compare/v1.1.1...v1.2.0) (2026-08-07)
 
 
