@@ -9,7 +9,7 @@
 
 🚰 Water Pipe is a casual pipe-rotation puzzle game. Click or tap the pipes to rotate them and connect every piece so the water can flow.
 
-Play the game on:
+Play in browser:
 
 - [itch.io](https://remarkablegames.itch.io/water-pipe)
 - [Wavedash](https://wavedash.com/games/water-pipe)
