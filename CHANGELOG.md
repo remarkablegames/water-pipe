@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/remarkablegames/water-pipe/compare/v1.2.1...v1.2.2) (2026-08-07)
+
+
+### Continuous Integration
+
+* **github:** fix app icon and windows upload with butler ([15d4702](https://github.com/remarkablegames/water-pipe/commit/15d4702464da5964c9b5b0f39cbb5370b2590e52))
+
 ## [1.2.1](https://github.com/remarkablegames/water-pipe/compare/v1.2.0...v1.2.1) (2026-08-07)
 
 
