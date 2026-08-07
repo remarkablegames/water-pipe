@@ -7,15 +7,25 @@
 [![release](https://img.shields.io/github/v/release/remarkablegames/water-pipe)](https://github.com/remarkablegames/water-pipe/releases)
 [![build](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/water-pipe/actions/workflows/build.yml)
 
-🚰 Water Pipe is a casual puzzle game where you connect all the pipes.
-
-The game was made for [Pixel Game Jam 2024](https://itch.io/jam/-pixel-game-jam-2024), which the theme was **AQUA**. See the [Replit](https://replit.com/@remarkablemark/Water-Pipe) demo and read the [blog post](https://remarkablegames.org/posts/water-pipe/).
+🚰 Water Pipe is a casual pipe-rotation puzzle game. Click or tap the pipes to rotate them and connect every piece so the water can flow.
 
 Play the game on:
 
 - [itch.io](https://remarkablegames.itch.io/water-pipe)
-- [newgrounds](https://www.newgrounds.com/portal/view/930938)
+- [Newgrounds](https://www.newgrounds.com/portal/view/930938)
 - [remarkablegames](https://remarkablegames.org/water-pipe/)
+
+Read the [blog post](https://remarkablegames.org/posts/water-pipe/).
+
+## Features
+
+- **11 handcrafted levels** - each with a unique pipe layout and scale.
+- **One-click rotation** - tap or click a pipe to rotate it into place.
+- **Randomized starting orientations** - every level is shuffled for a fresh challenge.
+- **Automatic solution check** - when the path is complete, the water flows and the next level loads.
+- **Ambient audio** - looping ocean waves with splash and click sound effects.
+- **Random background colors** - a new brick wall color for every level.
+- **Responsive scaling** - the puzzle board scales for desktop and mobile screens.
 
 ## Credits
 
