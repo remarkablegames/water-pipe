@@ -12,6 +12,7 @@
 Play the game on:
 
 - [itch.io](https://remarkablegames.itch.io/water-pipe)
+- [Wavedash](https://wavedash.com/games/water-pipe)
 - [Newgrounds](https://www.newgrounds.com/portal/view/930938)
 - [remarkablegames](https://remarkablegames.org/water-pipe/)
 
