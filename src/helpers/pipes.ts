@@ -1,4 +1,4 @@
-import type { GameObj } from 'kaboom'
+import type { GameObj } from 'kaplay'
 
 import { EmptyPipe } from '../constants'
 

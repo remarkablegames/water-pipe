@@ -42,7 +42,7 @@ Read the [blog post](https://remarkablegames.org/posts/water-pipe/).
 
 ## Stack
 
-- [Kaboom](https://kaboomjs.com/)
+- [Kaplay](https://kaplayjs.com/)
 - [Vite](https://vitejs.dev/)
 - [GitHub Pages](https://pages.github.com/)
 
