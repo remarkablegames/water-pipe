@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/remarkablegames/water-pipe/blob/master/public/logo.png" alt="Water Pipe" width="200">
+  <img src="public/cover_wide.jpeg" alt="Water Pipe" height="300">
 </p>
 
 # Water Pipe
